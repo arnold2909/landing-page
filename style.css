@@ -1,0 +1,90 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin:0px;
+    display: flex;
+    gap:18px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right:120px;
+    padding-left:120px;
+    padding-top:18px;
+    padding-bottom:18px;
+    background-color: #1f2937;
+}
+
+.header div{
+    color:#F9FAF8;
+    font-weight: 800;
+    font-size:24px;
+}
+
+.top {
+    display: flex;
+    justify-content:space-between;
+    gap:16px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #1f2937;
+}
+
+.top-left {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-between;
+}
+
+.top-left .button {
+    display: flex;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+.top-left a {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    background-color: #3882F6;
+    padding:12px;
+    border-radius: 10px;
+    flex-basis: 125px;
+}
+
+.top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+
+.main-text {
+    font-weight: 800;
+    font-size: 48px;
+    color: white;
+}
+
+.subtext {
+    color: white;
+    font-size:18px;
+}
